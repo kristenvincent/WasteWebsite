@@ -126,3 +126,19 @@ display: block
 .col-md-12 {
   text-align: center;
 }
+
+a {
+  color: gray ;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+#Story1Image {
+  display: center;
+}
