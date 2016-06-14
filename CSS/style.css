@@ -125,6 +125,7 @@ display: block
 
 .col-md-12 {
   text-align: center;
+
 }
 
 a {
@@ -139,6 +140,44 @@ a:visited {
   color: gray;
 }
 
-#Story1Image {
+#nav1 {
+  padding-right: 20px;
+}
+
+#clean-harbors-shipments-image {
   display: center;
+}
+
+
+
+/* cross-page styling for svg/map elements*/
+.CAN, .MEX, .USA{
+  fill: #cccccc;
+  stroke:white;
+  stroke-width: .5px;
+}
+.borders{
+  fill: none;
+  stroke: black;
+  stroke-width: 1px
+}
+.epa {
+  stroke: none;
+  stroke-width: 2px;
+  fill: none;
+}
+.d3-tip {
+  font-size: 10px;
+  line-height: 1;
+  font-weight: lighter;
+  padding: 3px;
+  border-width: 1px;
+  border-style: solid;
+  background: black;
+  color: black;
+  border-radius: 1px;
+}
+.legendText{
+  font-size: 10px;
+  fill: #685544;
 }
