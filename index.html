@@ -16,18 +16,15 @@
 	</head>
 
 	<body>
-<nav class="navbar navbar-default navbar-fixed-top main-navbar">
-  
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">HazmatMapping</a>
-    </div>
+	<nav class="navbar navbar-default navbar-fixed-top main-navbar"> <!--creates navbar-->
+		<div class="navbar-header"> <!--creates the navbar header-->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav1" aria-expanded="false" aria-controls="navbar" id="button">
+						<span class="sr-only">Toggle navigation</span><!--used for screen readers for accessibility-->
+						<span class="glyphicon glyphicon-menu-hamburger" id="hamburger"></span>
+						<span class="menu"></span>
+				</button> <!--hamburger button for smaller devices-->
+				<a class="navbar-brand" href="#">HazMatMapping</a><!--our website brand name-->
+		</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="nav1">
@@ -37,12 +34,12 @@
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" ic="nav2">
         <li><a href="AboutUs.html">About Us</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://geography.wisc.edu/hazardouswaste/map" target="blank">Hazmatmapper</a></li>
+            <li><a href="http://geography.wisc.edu/hazardouswaste/map" target="blank">HazMatMapper</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -78,7 +75,7 @@
 			</div>
 			<div class="col-md-3">
 					<div class="thumbnail portfolio-thumbnail center-block" id="image">
-							<a href = "clean-harbors-network.html" target = "blank"><img src="img/clean-harbors-networks.png"
+							<a href = "clean-harbors-network.html"><img src="img/clean-harbors-networks.png"
 							alt="Clean Harbors Networks"/>
 							<p class="imgDescription">Clean Harbors Networks</p>
 							</a>
