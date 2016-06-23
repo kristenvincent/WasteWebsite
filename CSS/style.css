@@ -195,6 +195,11 @@ h5 {
 .dropdown-menu > li > a {
   font-family: 'Bitter', serif;
   color: #685544;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+  background-image: red !important;
 }
 
 /*********Styling Image Hover Section*********/
@@ -234,5 +239,3 @@ h5 {
   right: 15px;
   height: 27px;
 }
-
-  
